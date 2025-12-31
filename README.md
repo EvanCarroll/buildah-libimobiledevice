@@ -58,14 +58,14 @@ podman run --rm -it --privileged -v /dev/bus/usb:/dev/bus/usb libimobiledevice:l
 
 The following libraries are compiled from the [libimobiledevice](https://github.com/libimobiledevice) GitHub repositories:
 
-1. `libplist` - Apple property list library
-2. `libimobiledevice-glue` - Common code for libimobiledevice projects
-3. `libusbmuxd` - Client library for usbmuxd
-4. `libirecovery` - Communication with iBoot/iBSS recovery mode
-5. `libtatsu` - TSS request library for firmware signing
-6. `libimobiledevice` - Core protocol library
-7. `usbmuxd` - USB multiplexing daemon
-8. `idevicerestore` - Firmware restore tool
+1. [libplist](https://github.com/libimobiledevice/libplist) - Apple property list library
+2. [libimobiledevice-glue](https://github.com/libimobiledevice/libimobiledevice-glue) - Common code for libimobiledevice projects
+3. [libusbmuxd](https://github.com/libimobiledevice/libusbmuxd) - Client library for usbmuxd
+4. [libirecovery](https://github.com/libimobiledevice/libirecovery) - Communication with iBoot/iBSS recovery mode
+5. [libtatsu](https://github.com/libimobiledevice/libtatsu) - TSS request library for firmware signing
+6. [libimobiledevice](https://github.com/libimobiledevice/libimobiledevice) - Core protocol library
+7. [usbmuxd](https://github.com/libimobiledevice/usbmuxd) - USB multiplexing daemon
+8. [idevicerestore](https://github.com/libimobiledevice/idevicerestore) - Firmware restore tool
 
 ## Base Image
 
